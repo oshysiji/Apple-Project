@@ -1,0 +1,557 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    width: 100%;
+}
+
+header{
+    height: 97vh;
+    background-image: url(images/heroipad\ \(2\).jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+nav{
+    background-color: rgb(24,24,24);
+    padding: 0.7rem 11.3rem;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mac{
+    float: left;
+    overflow: hidden;
+}
+
+.mac .mac-btn{
+    font-size: 0.7rem;
+    border: none;
+    outline: none;
+    color: rgba(255, 255, 255, 0.7);
+    background: inherit;
+    cursor: pointer;
+}
+
+.mac-content{
+    display: none;
+    position: absolute;
+    background-color: rgb(24,24,24);
+    padding: 2.2rem 11rem;
+    width: 100%;
+    left: 0;
+}
+
+.mac:hover .mac-content{
+    display: block;
+}
+
+.row{
+    display: flex;
+    gap: 3.5rem;
+}
+
+.column{
+    float: left;
+    padding: 0.8rem;
+}
+
+.sub-col1{
+    text-decoration: none;
+    display: block;
+    float: none;
+    color: rgb(214, 204, 204);
+    text-align: left;
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding: 0.5rem;
+    padding-left: 0rem;
+}
+
+.sub-col2{
+    text-decoration: none;
+    display: block;
+    float: none;
+    color: rgb(214, 204, 204);
+    text-align: left;
+    font-size: 0.8rem;
+    font-weight: 700;
+    padding: 0.5rem;
+    padding-left: 0rem;
+}
+
+.column p{
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.7);
+    padding-bottom: 0.5rem;
+}
+
+.nav-ipad{
+    float: left;
+    overflow: hidden;
+}
+
+.nav-ipad .nav-ipad-but{
+    background: inherit;
+    color: rgba(255, 255, 255, 0.7);
+    border: none;
+    font-size: 0.7rem;
+    outline: none;
+    cursor: pointer;
+}
+
+.ipad-content{
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: rgb(24,24,24);
+    width: 100%;
+    padding: 2.2rem 11rem;
+}
+
+.nav-ipad:hover .ipad-content{
+    display: block;
+}
+
+.nav-iphone{
+    float: left;
+    overflow: hidden;
+}
+
+.nav-iphone .iphone-btn{
+    background: inherit;
+    border: none;
+    outline: none;
+    color:rgb(214, 204, 204);
+    font-size: 0.7rem;
+    cursor: pointer;
+}
+
+.iphone-content{
+    display: none;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background-color: rgb(24,24,24);
+    padding: 2.2rem 11rem;
+}
+
+.nav-iphone:hover .iphone-content{
+    display: block;
+}
+
+.support{
+    float: left;
+    overflow: hidden;
+}
+
+.support .sup-btn{
+    background: inherit;
+    border: none;
+    outline: none;
+    color:rgb(214, 204, 204);
+    font-size: 0.7rem;
+    cursor: pointer;
+}
+
+.support-content{
+    display: none;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background-color: rgb(24,24,24);
+    padding: 2.2rem 11rem;
+}
+
+.support:hover .support-content{
+    display: block;
+}
+
+.x-sup{
+    padding-top: 0.8rem;
+    font-weight: 700;
+}
+
+.nav-buy{
+    float: left;
+    overflow: hidden;
+}
+
+.buy-btn{
+    background: inherit;
+    border: none;
+    outline: none;
+    font-size: 0.7rem;
+    color:rgb(214, 204, 204);
+    cursor: pointer;    
+}
+
+.buy-content{
+    display: none;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background-color: rgb(24,24,24);
+    padding: 2.2rem 11rem;    
+}
+
+.nav-buy:hover .buy-content{
+    display: block;
+}
+
+.hero-icon,
+.hero-search{
+    filter: brightness(0) invert(1);
+    opacity: 0.7;
+    width: 1.25rem;
+}
+
+.hero-section{
+    padding-top: 5.625rem;    
+    text-align: center;
+}
+
+.hero-text,
+.pro-text{
+    color: #fff;
+}
+
+.hero-text h2,
+.pro-text h2{
+    font-size: 3.4rem;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.hero-text p,
+.pro-text p{
+    font-size: 1.7rem;
+    padding: 1rem 0rem;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.camera-text h2{
+    font-size: 3.4rem;
+}
+
+.camera-text p{
+    font-size: 1.7rem;
+}
+
+.hero-button{
+    background-color: rgb(0,113,227);
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.4rem;
+    border-radius: 1.56rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.hero-button:hover{
+    background-color: rgb(0, 0, 255);
+}
+
+.iphone-camera{
+    margin-top: 0.6rem;
+    background-image: url(images/iphone15.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+}
+
+.camera-text,
+.pro-text{
+    text-align: center;    
+    padding-top: 3.75rem;
+}
+
+.ipad-pro{
+    margin-top: 0.6rem;
+    background-image: url(images/ipadpro.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 90vh;    
+}
+
+.air-pack{
+    display: grid;
+    width: 98%;
+    margin: 1rem auto;
+    gap: 0.9rem;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.ipad-air{
+    background-image: url(images/ipadair.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    height: 90vh;   
+    text-align: center;
+    padding-top: 3.75rem;
+    cursor: pointer;
+}
+
+.t-air{
+    background-image: url(images/ipadairfont.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 2rem;
+}
+
+.iair{
+    color: #fff;
+    background-color: rgb(29,29,31);
+    padding: 0.75rem 1.25rem;
+    border-radius: 1.25rem;
+    border: none;
+    cursor: pointer;
+}
+
+.iair:hover{
+    background-color: rgb(40, 40, 43);
+}
+
+.mac-air{
+    background-image: url(images/macbookair.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding-top: 3.75rem;
+    cursor: pointer;
+}
+
+.mac-air h2,
+.mac-pro h2,
+.ipad h2{
+    font-size: 2.25rem;
+}
+
+.ipad-air p,
+.mac-air p,
+.mac-pro p,
+.ipad p{
+    font-size: 1.25rem;
+    padding: 0.6rem;
+}
+
+.mpro{
+    color: #fff;
+    background-color: rgb(0,113,227);
+    padding: 0.75rem 1.25rem;
+    border-radius: 1.25rem;
+    border: none;
+    cursor: pointer;
+}
+
+.mpro:hover{
+    background-color: rgb(0, 0, 255);
+}
+
+.mac-pro{
+    background-image: url(images/macpro.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 3.75rem;
+    cursor: pointer;
+    text-align: center;
+}
+
+.ipad{
+    background-image: url(images/ipadbot.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    padding-top: 3.75rem;
+    cursor: pointer;
+    text-align: center;
+}
+
+footer{
+    background-color: rgb(245,245,247);
+    padding: 1.25rem 11.5rem;
+}
+
+.sub-footer{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10rem;
+}
+
+.explore{
+    font-size: 0.75rem;
+}
+
+.sub-footer p{
+    padding-bottom: 0.6rem;
+    opacity: 0.6;
+    font-weight: bold;
+}
+
+.break{
+    display: flex;
+    flex-direction: column;
+}
+
+.break a{
+    text-decoration: none;
+    color: #000;
+    opacity: 0.6;
+    padding-bottom: 0.6rem;
+}
+
+.break a:hover{
+    text-decoration: underline;
+}
+
+.retail{
+    font-size: 0.75rem;
+    padding: 1.25rem 0rem;
+}
+
+.retail a{
+    color: rgb(19,113,207);
+}
+
+.bot-foot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.75rem;
+    opacity: 0.6;
+    padding-top: 1.25rem;
+}
+
+.f-line{
+    display: none;
+}
+
+@media (max-width: 768px){
+    header{
+        background-image: url(images/hero798.jpg);
+        height: 86vh;
+    }
+
+    nav{
+        padding: 0.75rem 0.7rem;
+    }
+
+    .mac, .nav-ipad, .nav-iphone, .support, .nav-buy{
+        display: none;
+    }
+
+    .hero-button{
+        padding: 0.7rem 1.2rem;
+        font-size: 0.85rem;
+        margin: 0.75rem 0rem;
+    }
+
+    .hero-text h2,
+    .pro-text h2,
+    .camera-text h2{
+        font-size: 1.85rem;
+    }
+
+    .hero-text p,
+    .pro-text p,
+    .camera-text p{
+        font-size: 1.1rem;
+        padding: 0.3rem;
+    }
+
+    .iphone-camera{
+        background-image: url(images/iphone15s.jpg);
+        height: 78vh;
+    }
+
+    .ipad-pro{
+        background-image: url(images/ipadprosmall.jpg);
+        height: 78vh;
+    }
+
+    .camera-text,
+    .pro-text{
+        padding-top: 2.7rem;
+    }
+
+    .air-pack{
+        width: 100%;
+    }
+
+    .ipad-air,
+    .mac-air,
+    .mac-pro,
+    .ipad{
+        grid-column: 1 / 3;
+        height: 78vh;
+        padding-top: 2.7rem;
+    }
+
+    .t-air{
+        background-image: url(images/ipadairsmallf.png);
+    }
+
+    .mac-air h2,
+    .mac-pro h2,
+    .ipad h2{
+        font-size: 1.8rem;
+    }
+
+    .ipad-air p,
+    .mac-air p,
+    .mac-pro p,
+    .ipad p{
+        font-size: 1.1rem;
+        padding: 0.6rem;
+    }
+
+    .mac-air{
+        background-image: url(images/macairsmall.jpg);
+    }
+
+    .ipad-air{
+        background-image: url(images/ipadairsmall.jpg);
+    }
+
+    .mac-pro{
+        background-image: url(images/macpsmall.jpg);
+    }
+
+    .ipad{
+        background-image: url(images/ipadsmall.jpg);
+    }
+
+
+    footer{
+        padding: 1rem;
+    }
+
+    .sub-footer{
+        flex-direction: column;
+    }
+
+    .break{
+        display: none;
+    }
+
+    .explore p{
+        padding: 0.6rem;
+        border-bottom: 1px solid rgb(161, 160, 160);
+    }
+
+    
+
+}

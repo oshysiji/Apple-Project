@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    width: 100%;
+    background-color: rgb(59, 59, 71);
+}
+
+.sign-in{
+    transform: translate(-50%, 20%);
+    height: 500px;
+    overflow-y: scroll;
+}
+
+.p-label{
+    font-size: 0.7rem;
+    padding-left: 1rem;
+    color: rgb(175, 169, 169);
+}
+
+.rules{
+    display: flex;
+    align-items: center;
+}
+
+.rules-check{
+    width: 7%;
+    border: 10px solid;
+}
+
+.rules-check:checked + label{
+    color: rgb(0, 0, 255);
+}
+
+.rules-lab{
+    font-size: 0.9rem;
+}
+
+.rules strong{
+    color: rgb(0, 0, 255);
+}
+
+
